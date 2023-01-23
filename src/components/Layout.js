@@ -6,8 +6,10 @@ const Layout = () => {
     <>
         <Header />
         <main className='App'>
-            {/* Outlet represent all the children */}
-            <Outlet />
+          <div className='container'>
+              {/* Outlet represent all the children */}
+              <Outlet />
+          </div>
         </main>
     </>
   )
